@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.steve.pojo.Address">
+        <property name="name" value="zju"/>
+    </bean>
+
+    <bean id="gj" class="com.steve.pojo.Student">
+        <property name="name" value="gjj"/>
+        <property name="address" ref="address"/>
+        <property name="balls">
+            <set>
+                <value>"篮球"</value>
+                <value>"足球"</value>
+            </set>
+        </property>
+        <property name="books">
+            <list>
+                <value>"语文"</value>
+                <value>"数学"</value>
+            </list>
+        </property>
+        <property name="cards">
+            <map>
+                <entry key="idCard" value="1233456789"></entry>
+                <entry key="yhcard" value="147258369"></entry>
+            </map>
+        </property>
+        <property name="hobbies">
+            <array>
+                <value>"swim"</value>
+                <value>"run"</value>
+            </array>
+        </property>
+        <property name="jdbc">
+            <props>
+                <prop key="username">"gjj"</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
