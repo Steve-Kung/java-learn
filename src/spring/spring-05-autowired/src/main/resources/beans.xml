@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+           https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--&lt;!&ndash;c/p命名空间&ndash;&gt;-->
+    <!--<bean id="user0" class="com.steve.pojo.User" p:name="steve" p:age="17">-->
+        <!--&lt;!&ndash;<property name="name" value="gj" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="age" value="18"/>&ndash;&gt;-->
+    <!--</bean>-->
+    <!--<bean id="user1" class="com.steve.pojo.User" c:name="gj" c:age="18">-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash;scope 单例 singleton&ndash;&gt;-->
+    <!--<bean id="user2" class="com.steve.pojo.User" scope="singleton"/>-->
+
+    <!--&lt;!&ndash;scope 非单例 prototype&ndash;&gt;-->
+    <!--<bean id="user3" class="com.steve.pojo.User" scope="prototype"/>-->
+
+    <!--引入注解约束-->
+    <context:annotation-config/>
+
+    <bean id="user" class="com.steve.pojo.User"/>
+    <bean id="cat" class="com.steve.pojo.Cat"/>
+    <bean id="dog" class="com.steve.pojo.Dog"/>
+
+
+
+
+</beans>
