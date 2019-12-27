@@ -1,8 +1,8 @@
 package com.steve.dao;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class UserDao {
     public void userDao(){
         System.out.println("进入Dao层");

@@ -17,5 +17,6 @@ public class MyTest {
         User user = context.getBean("user", User.class);
         user.getCat().shout();
         user.getDog().shout();
+        System.out.println(user.toString());
     }
 }

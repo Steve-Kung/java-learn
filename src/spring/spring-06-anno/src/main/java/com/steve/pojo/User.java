@@ -1,13 +1,16 @@
 package com.steve.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
 @Component
 public class User {
+    @Value("steve")
     private String name;
+    @Value("12")
     private int id;
     @Autowired
     private Cat cat;
