@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tx" />
         <module name="untx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-11-transaction" target="1.5" />
+      <module name="tx" target="1.5" />
       <module name="untx" target="1.5" />
     </bytecodeTargetLevel>
   </component>

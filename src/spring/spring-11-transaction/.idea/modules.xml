@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-11-transaction.iml" filepath="$PROJECT_DIR$/spring-11-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx/tx.iml" filepath="$PROJECT_DIR$/tx/tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/untx/untx.iml" filepath="$PROJECT_DIR$/untx/untx.iml" />
     </modules>
   </component>
