@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.steve.mapper.UserMapper">
+    <select id="getUsers" resultType="User">
+        select * from mybatis.user
+    </select>
+
+    <!--模糊查询-->
+    <!--第一种-->
+    <select id="selectUserLikeName" parameterType="String" resultType="User">
+        SELECT * FROM mybatis.user WHERE name LIKE #{name}
+    </select>
+    <!--第二种-->
+    <!--只想改密码-->
+    <!--<update id="updateUser" parameterType="User">-->
+        <!--UPDATE mybatis.user SET name=#{name}, pwd=#{pwd} WHERE id=#{id}-->
+    <!--</update>-->
+
+    <parameterMap id="map" type="com.steve.pojo.User">
+        <parameter property="id"/>
+        <parameter property="pwd"/>
+    </parameterMap>
+
+    <update id="updateUser" parameterMap="map">
+        UPDATE mybatis.user SET pwd=#{pwd} WHERE id=#{id}
+    </update>
+    
+    
+    <resultMap id="resultMap" type="User">
+        <result column="idplus" property="id"/>
+        <result column="nameplus" property="name"/>
+        <!--<result column="pwdplus" property="pwd"/>-->
+    </resultMap>
+
+    <select id="selectUserById" resultMap="resultMap">
+        SELECT idplus, nameplus, pwdplus FROM mybatisplus.user WHERE idplus=#{id}
+    </select>
+
+
+</mapper>
