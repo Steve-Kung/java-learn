@@ -11,6 +11,8 @@
     <modules>
         <module>mybatis-01</module>
         <module>mybatis-02</module>
+        <module>mybatis-03-log4j</module>
+        <module>mybatis-04-limit</module>
     </modules>
 
     <dependencies>
@@ -28,6 +30,18 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.1.11</version>
         </dependency>
 
     </dependencies>
