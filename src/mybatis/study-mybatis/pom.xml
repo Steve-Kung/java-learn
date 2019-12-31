@@ -13,6 +13,9 @@
         <module>mybatis-02</module>
         <module>mybatis-03-log4j</module>
         <module>mybatis-04-limit</module>
+        <module>mybatis-05-annotation</module>
+        <module>mybatis-06-duo-yi</module>
+        <module>mybatis-07-yi-duo</module>
     </modules>
 
     <dependencies>
@@ -42,6 +45,13 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
             <version>5.1.11</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
         </dependency>
 
     </dependencies>

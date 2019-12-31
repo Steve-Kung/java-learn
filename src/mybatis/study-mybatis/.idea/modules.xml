@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-02/mybatis-02.iml" filepath="$PROJECT_DIR$/mybatis-02/mybatis-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-03-log4j/mybatis-03-log4j.iml" filepath="$PROJECT_DIR$/mybatis-03-log4j/mybatis-03-log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-04-limit/mybatis-04-limit.iml" filepath="$PROJECT_DIR$/mybatis-04-limit/mybatis-04-limit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-05-annotation/mybatis-05-annotation.iml" filepath="$PROJECT_DIR$/mybatis-05-annotation/mybatis-05-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-06-duo-yi/mybatis-06-duo-yi.iml" filepath="$PROJECT_DIR$/mybatis-06-duo-yi/mybatis-06-duo-yi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-07-yi-duo/mybatis-07-yi-duo.iml" filepath="$PROJECT_DIR$/mybatis-07-yi-duo/mybatis-07-yi-duo.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-mybatis.iml" filepath="$PROJECT_DIR$/study-mybatis.iml" />
     </modules>
   </component>

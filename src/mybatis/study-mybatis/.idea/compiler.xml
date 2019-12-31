@@ -10,6 +10,10 @@
         <module name="mybatis-02" />
         <module name="mybatis-03-log4j" />
         <module name="mybatis-04-limit" />
+        <module name="mybatis-05-annotation" />
+        <module name="mybatis-06-duo-yi" />
+        <module name="mybatis-07-yi-duo" />
+        <module name="mybatis05annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +21,10 @@
       <module name="mybatis-02" target="1.5" />
       <module name="mybatis-03-log4j" target="1.5" />
       <module name="mybatis-04-limit" target="1.5" />
+      <module name="mybatis-05-annotation" target="1.5" />
+      <module name="mybatis-06-duo-yi" target="1.5" />
+      <module name="mybatis-07-yi-duo" target="1.5" />
+      <module name="mybatis05annotation" target="1.5" />
       <module name="study-mybatis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
