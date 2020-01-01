@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-05-annotation/mybatis-05-annotation.iml" filepath="$PROJECT_DIR$/mybatis-05-annotation/mybatis-05-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-06-duo-yi/mybatis-06-duo-yi.iml" filepath="$PROJECT_DIR$/mybatis-06-duo-yi/mybatis-06-duo-yi.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-07-yi-duo/mybatis-07-yi-duo.iml" filepath="$PROJECT_DIR$/mybatis-07-yi-duo/mybatis-07-yi-duo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-08-daynSQL/mybatis-08-daynSQL.iml" filepath="$PROJECT_DIR$/mybatis-08-daynSQL/mybatis-08-daynSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-09-cache/mybatis-09-cache.iml" filepath="$PROJECT_DIR$/mybatis-09-cache/mybatis-09-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/study-mybatis.iml" filepath="$PROJECT_DIR$/study-mybatis.iml" />
     </modules>
   </component>

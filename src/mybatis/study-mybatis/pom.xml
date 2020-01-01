@@ -16,6 +16,8 @@
         <module>mybatis-05-annotation</module>
         <module>mybatis-06-duo-yi</module>
         <module>mybatis-07-yi-duo</module>
+        <module>mybatis-08-daynSQL</module>
+        <module>mybatis-09-cache</module>
     </modules>
 
     <dependencies>

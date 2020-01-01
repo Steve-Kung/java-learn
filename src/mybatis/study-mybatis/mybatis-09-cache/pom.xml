@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>study-mybatis</artifactId>
+        <groupId>com.steve</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mybatis-09-cache</artifactId>
+
+    <!--导入第三方缓存-->
+    <!--<dependencies>-->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.mybatis.caches/mybatis-ehcache &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.mybatis.caches</groupId>-->
+            <!--<artifactId>mybatis-ehcache</artifactId>-->
+            <!--<version>1.1.0</version>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+
+</project>

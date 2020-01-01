@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.steve.mapper.BookMapper">
+    <insert id="addBook" parameterType="Book">
+        INSERT INTO mybatis.book (id, title, author, create_time, views) VALUES (#{id}, #{title}, #{author}, #{createTime}, #{views})
+    </insert>
+
+    <select id="selectBooks" resultType="Book">
+        SELECT * FROM mybatis.book
+    </select>
+
+    <!--sql片段重用-->
+    <sql id="if-title-author">
+        <if test="title != null">
+            and title = #{title}
+        </if>
+        <if test="author != null">
+            and author = #{author}
+        </if>
+    </sql>
+
+    <!--if include-->
+    <!--SELECT * FROM mybatis.book WHERE title="this is good" AND author="steve"-->
+    <select id="queryBookIF" resultType="Book" parameterType="map">
+        SELECT * FROM mybatis.book
+        <where>
+            <include refid="if-title-author"/>
+          <!--<if test="title != null">-->
+              <!--and title = #{title}-->
+          <!--</if>-->
+          <!--<if test="author != null">-->
+              <!--and author = #{author}-->
+          <!--</if>-->
+        </where>
+    </select>
+
+    <!--choose when 相当于switch语句-->
+    <select id="queryBookChoose" parameterType="map" resultType="Book">
+        SELECT * FROM mybatis.book
+        <where>
+            <choose>
+                <when test="title != null">
+                    and title = #{title}
+                </when>
+                <when test="author != null">
+                    and author = #{author}
+                </when>
+                <otherwise>
+                    and views = #{views}
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <!--set-->
+    <update id="updateBook" parameterType="map">
+        UPDATE mybatis.book
+        <set>
+          <if test="title != null">
+              title = #{title},
+          </if>
+          <if test="author != null">
+              author = #{author},
+          </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+
+    <!--foreach-->
+    <!--SELECT * from book WHERE (id="7121800c84434111974f308ab79451be" or id="0cb0e74b50444ce98b6c9d882f5477ba" or id="d1a778add0cc451199d26d0e67ca2137")-->
+    <select id="queryBookForeach" parameterType="map" resultType="Book">
+        SELECT * from mybatis.book
+        <where>
+          <foreach collection="ids" item="id" separator="or" open="and (" close=")">
+              id = #{id}
+          </foreach>
+        </where>
+    </select>
+
+
+</mapper>

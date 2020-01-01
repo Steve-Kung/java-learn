@@ -13,6 +13,8 @@
         <module name="mybatis-05-annotation" />
         <module name="mybatis-06-duo-yi" />
         <module name="mybatis-07-yi-duo" />
+        <module name="mybatis-08-daynSQL" />
+        <module name="mybatis-09-cache" />
         <module name="mybatis05annotation" />
       </profile>
     </annotationProcessing>
@@ -24,6 +26,8 @@
       <module name="mybatis-05-annotation" target="1.5" />
       <module name="mybatis-06-duo-yi" target="1.5" />
       <module name="mybatis-07-yi-duo" target="1.5" />
+      <module name="mybatis-08-daynSQL" target="1.5" />
+      <module name="mybatis-09-cache" target="1.5" />
       <module name="mybatis05annotation" target="1.5" />
       <module name="study-mybatis" target="1.5" />
     </bytecodeTargetLevel>
