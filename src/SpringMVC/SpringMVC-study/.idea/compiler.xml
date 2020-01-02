@@ -10,6 +10,8 @@
         <module name="springmvc-02-helloSpringmvc" />
         <module name="springmvc-03-helloSpringMVC" />
         <module name="springmvc-04-annotation" />
+        <module name="springmvc-05-controller" />
+        <module name="springmvc-06-encoding" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +19,8 @@
       <module name="springmvc-02-helloSpringmvc" target="1.5" />
       <module name="springmvc-03-helloSpringMVC" target="1.5" />
       <module name="springmvc-04-annotation" target="1.5" />
+      <module name="springmvc-05-controller" target="1.5" />
+      <module name="springmvc-06-encoding" target="1.5" />
       <module name="SpringMVC-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>

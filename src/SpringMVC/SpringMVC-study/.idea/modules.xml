@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc-02-helloSpringmvc/springmvc-02-helloSpringmvc.iml" filepath="$PROJECT_DIR$/springmvc-02-helloSpringmvc/springmvc-02-helloSpringmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-03-helloSpringMVC/springmvc-03-helloSpringMVC.iml" filepath="$PROJECT_DIR$/springmvc-03-helloSpringMVC/springmvc-03-helloSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-04-annotation/springmvc-04-annotation.iml" filepath="$PROJECT_DIR$/springmvc-04-annotation/springmvc-04-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-05-controller/springmvc-05-controller.iml" filepath="$PROJECT_DIR$/springmvc-05-controller/springmvc-05-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-06-encoding/springmvc-06-encoding.iml" filepath="$PROJECT_DIR$/springmvc-06-encoding/springmvc-06-encoding.iml" />
     </modules>
   </component>
 </project>
