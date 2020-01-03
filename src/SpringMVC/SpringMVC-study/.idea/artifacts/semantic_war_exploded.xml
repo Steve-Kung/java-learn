@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="semantic:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/semantic_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="semantic/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="semantic" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

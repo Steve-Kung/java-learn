@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--json数据与js对象相互转换-->
+</head>
+<body>
+<script type="text/javascript">
+    // js对象
+    var user = {
+        name : "steve",
+        age : 18,
+        sex : "男"
+    };
+    console.log(user); // 在浏览器控制台上调试
+    // js对象转换成json数据
+    // json数据就是键值对字符串：{"name":"steve","age":18,"sex":"男"}
+    var json = JSON.stringify(user);
+    console.log(json);
+    // json数据转换为js对象
+    var js = JSON.parse('{"name":"gj","sex":"male","age":"18"}');
+    console.log(js);
+</script>
+</body>
+</html>

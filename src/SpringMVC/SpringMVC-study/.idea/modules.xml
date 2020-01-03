@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-study.iml" filepath="$PROJECT_DIR$/SpringMVC-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/semantic/semantic.iml" filepath="$PROJECT_DIR$/semantic/semantic.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-01-servlet/springmvc-01-servlet.iml" filepath="$PROJECT_DIR$/springmvc-01-servlet/springmvc-01-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-02-helloSpringmvc/springmvc-02-helloSpringmvc.iml" filepath="$PROJECT_DIR$/springmvc-02-helloSpringmvc/springmvc-02-helloSpringmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-03-helloSpringMVC/springmvc-03-helloSpringMVC.iml" filepath="$PROJECT_DIR$/springmvc-03-helloSpringMVC/springmvc-03-helloSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-04-annotation/springmvc-04-annotation.iml" filepath="$PROJECT_DIR$/springmvc-04-annotation/springmvc-04-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-05-controller/springmvc-05-controller.iml" filepath="$PROJECT_DIR$/springmvc-05-controller/springmvc-05-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-06-encoding/springmvc-06-encoding.iml" filepath="$PROJECT_DIR$/springmvc-06-encoding/springmvc-06-encoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-07-json/springmvc-07-json.iml" filepath="$PROJECT_DIR$/springmvc-07-json/springmvc-07-json.iml" />
     </modules>
   </component>
 </project>

@@ -6,21 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="semantic" />
         <module name="springmvc-01-servlet" />
         <module name="springmvc-02-helloSpringmvc" />
         <module name="springmvc-03-helloSpringMVC" />
         <module name="springmvc-04-annotation" />
         <module name="springmvc-05-controller" />
         <module name="springmvc-06-encoding" />
+        <module name="springmvc-07-json" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="semantic" target="1.5" />
       <module name="springmvc-01-servlet" target="1.5" />
       <module name="springmvc-02-helloSpringmvc" target="1.5" />
       <module name="springmvc-03-helloSpringMVC" target="1.5" />
       <module name="springmvc-04-annotation" target="1.5" />
       <module name="springmvc-05-controller" target="1.5" />
       <module name="springmvc-06-encoding" target="1.5" />
+      <module name="springmvc-07-json" target="1.5" />
       <module name="SpringMVC-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>
