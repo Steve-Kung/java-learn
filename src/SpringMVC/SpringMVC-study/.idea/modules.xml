@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc-05-controller/springmvc-05-controller.iml" filepath="$PROJECT_DIR$/springmvc-05-controller/springmvc-05-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-06-encoding/springmvc-06-encoding.iml" filepath="$PROJECT_DIR$/springmvc-06-encoding/springmvc-06-encoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-07-json/springmvc-07-json.iml" filepath="$PROJECT_DIR$/springmvc-07-json/springmvc-07-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-08-ajax/springmvc-08-ajax.iml" filepath="$PROJECT_DIR$/springmvc-08-ajax/springmvc-08-ajax.iml" />
     </modules>
   </component>
 </project>

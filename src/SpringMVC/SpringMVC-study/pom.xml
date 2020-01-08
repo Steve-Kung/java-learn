@@ -17,6 +17,7 @@
         <module>springmvc-06-encoding</module>
         <module>springmvc-07-json</module>
         <module>semantic</module>
+        <module>springmvc-08-ajax</module>
     </modules>
 
     <dependencies>
@@ -46,6 +47,11 @@
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
         </dependency>
     </dependencies>
 
