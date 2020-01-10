@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc-07-json/springmvc-07-json.iml" filepath="$PROJECT_DIR$/springmvc-07-json/springmvc-07-json.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-08-ajax/springmvc-08-ajax.iml" filepath="$PROJECT_DIR$/springmvc-08-ajax/springmvc-08-ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc-09-interceptor/springmvc-09-interceptor.iml" filepath="$PROJECT_DIR$/springmvc-09-interceptor/springmvc-09-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-10-file/springmvc-10-file.iml" filepath="$PROJECT_DIR$/springmvc-10-file/springmvc-10-file.iml" />
     </modules>
   </component>
 </project>

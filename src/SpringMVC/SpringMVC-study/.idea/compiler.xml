@@ -16,6 +16,7 @@
         <module name="springmvc-07-json" />
         <module name="springmvc-08-ajax" />
         <module name="springmvc-09-interceptor" />
+        <module name="springmvc-10-file" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +30,7 @@
       <module name="springmvc-07-json" target="1.5" />
       <module name="springmvc-08-ajax" target="1.5" />
       <module name="springmvc-09-interceptor" target="1.5" />
+      <module name="springmvc-10-file" target="1.5" />
       <module name="SpringMVC-study" target="1.5" />
     </bytecodeTargetLevel>
   </component>

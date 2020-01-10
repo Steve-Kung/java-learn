@@ -19,6 +19,7 @@
         <module>semantic</module>
         <module>springmvc-08-ajax</module>
         <module>springmvc-09-interceptor</module>
+        <module>springmvc-10-file</module>
     </modules>
 
     <dependencies>
